@@ -51,7 +51,7 @@ export function Navigation() {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-sm tracking-wide text-muted-foreground hover:text-foreground transition-colors duration-300"
+                  className="text-sm tracking-wide text-foreground/70 hover:text-primary transition-colors duration-300"
                 >
                   {link.name}
                 </a>
